@@ -16,7 +16,6 @@ import {
   Link,
   IconButton,
   Icon,
-  Text,
   useDisclosure,
   Button,
   Image,

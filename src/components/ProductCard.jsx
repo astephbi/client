@@ -1,12 +1,7 @@
 import React from 'react';
 import {
-  Flex,
-  Circle,
   Box,
   Image,
-  Badge,
-  Icon,
-  Tooltip,
   Card,
   Stack,
   ButtonGroup,
@@ -14,15 +9,10 @@ import {
   Text,
   CardBody,
   CardFooter,
-  Link,
   Divider,
-  HStack,
   Button,
-  useColorModeValue,
 } from '@chakra-ui/react';
-import { FiShoppingCart } from 'react-icons';
 import { Link as ReactLink } from 'react-router-dom';
-import { StarIcon } from '@chakra-ui/icons';
 import { useState } from 'react';
 
 const ProductCard = ({ product }) => {
